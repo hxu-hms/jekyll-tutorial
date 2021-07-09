@@ -30,8 +30,9 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-theme: minima
+# theme: minima
 remote_theme: pmarsceill/just-the-docs
+color_scheme: "dark"
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
