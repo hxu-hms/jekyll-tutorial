@@ -155,11 +155,11 @@ This website is created with [Jekyll](https://jekyllrb.com)
 Relative links only works for linking to pages in the same website/repository. It is relative to the current file you are editing. For example, linking to a different page on this website could look like this:
 
 ```
-Check out the [About](./about.md) page of this website for more information.
+Check out the [About](./about/) page of this website for more information.
 ```
 will render:
 
-Check out the [About](./about.md) page of this website for more information.
+Check out the [About](./about/) page of this website for more information.
 
 You can use link operands such as `./` and `../` to indicate current directory and parent directory respectively.
 
