@@ -201,6 +201,7 @@ To generate a simple table, use pipes `|` to delineate columns and three or more
 |adding an item | adding another item |
 ```
 will render
+
 | Column 1 | Column 2|
 |--------|--------|
 |adding an item | adding another item |
