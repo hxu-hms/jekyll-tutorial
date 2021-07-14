@@ -8,6 +8,12 @@ permalink: markdown-basic
 
 This page will give you a quick guide through some of the Markdown syntax that you may use to edit your `.md` files. If you are editing in GitHub, the Preview button on top of the editing window allows you to view basic Markdown contents before you commit to the changes (Jekyll-specific features are not supported).
 
+For extra resources on Markdown syntax and editing Markdown on GitHub, these following resources may be helpful:
+1. [Basic Writing and Formatting Syntax on GitHub](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+2. [Markdown Guide: Basic Markdown Syntax](https://www.markdownguide.org/basic-syntax/)
+3. [Markdown Guide: Extended Syntax](https://www.markdownguide.org/extended-syntax/)
+4. [Daring Fireball: Markdown Syntax](https://daringfireball.net/projects/markdown/syntax)
+
 ## Headings
 
 Adding number sign `#` followed by a space in front of a line creates a heading. The number of `#` added corresponds to heading level.  
@@ -131,11 +137,80 @@ To show backticks `` ` `` in code, surround the portion of code that would inclu
 
 ## Links
 
+To create an inline link, use `[ ]` to wrap the link text, followed by the URL/navigation to the linked content in `( )`. 
+
 ### Absolute links
+
+For linking to external content, an absolute link should be used. In this instance, the `( )` contains the full URL of the linked content. However, this is not the best option for linking to in-site content, since the URL may change during editing. For example, the following is an absolute link
+
+```
+This website is created with [Jekyll](https://jekyllrb.com)
+```
+will render:
+
+This website is created with [Jekyll](https://jekyllrb.com)
 
 ### Relative links
 
+Relative links only works for linking to pages in the same website/repository. It is relative to the current file you are editing. For example, linking to a different page on this website could look like this:
+
+```
+Check out the [About](./about.md) page of this website for more information.
+```
+will render:
+
+Check out the [About](./about.md) page of this website for more information.
+
+You can use link operands such as `./` and `../` to indicate current directory and parent directory respectively.
+
+### Section links
+
+You can also directly link to a section within a page by hovering over or clicking on the section heading to expose the link.
+
+[image of section link]
+
 ## Images
 
+To add an image, use an exclamation mark `!`, followed by alt text for the image in square brackets `[ ]`, and the path or URL to the image in parentheses `( )`.
 
+```
+![Image of neuron drawing by Santiago Ramón y Cajal](./images/neuron-drawing.jpg)
+```
+)
+will render
 
+![Image of neuron drawing by Santiago Ramón y Cajal](./images/neuron-drawing.jpg)
+
+### Linked images
+
+If you want to add a link to an image, enclose the entire Markdown expression for the image in square brackets `[ ]` and then add the link path/URL in parentheses `( )`.
+
+```
+[![Image of neuron drawing by Santiago Ramón y Cajal](./images/neuron-drawing.jpg)](https://en.wikipedia.org/wiki/Santiago_Ram%C3%B3n_y_Cajal)
+```
+will render
+
+[![Image of neuron drawing by Santiago Ramón y Cajal](./images/neuron-drawing.jpg)](https://en.wikipedia.org/wiki/Santiago_Ram%C3%B3n_y_Cajal)
+
+## Simple tables
+
+To generate a simple table, use pipes `|` to delineate columns and three or more hyphens `---` to create each column's header. For example
+```
+| Column 1 | Column 2|
+|--------|--------|
+|adding an item | adding another item |
+```
+will render
+| Column 1 | Column 2|
+|--------|--------|
+|adding an item | adding another item |
+
+As you can see above, the lengths of the cells do not have to be the same.
+
+## Ignore Markdown formatting
+
+In general, you can intentially ignore Markdown formatting by adding a backslash `\` before the character you are trying to ignore. For example
+
+| Markdown | Rendered Output |
+|----------|-----------------|
+|`Do not \*format this\*.`|Do not \*format this\*.|
