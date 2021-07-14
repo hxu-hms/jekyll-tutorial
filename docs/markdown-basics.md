@@ -165,9 +165,9 @@ You can use link operands such as `./` and `../` to indicate current directory a
 
 ### Section links
 
-You can also directly link to a section within a page by hovering over or clicking on the section heading to expose the link.
+You can also directly link to a section within a page by hovering over or clicking on the section heading to expose the link. For example, hovering or clicking on "Headings" reveals the link to that section on the bottom and in the address bar.
 
-[image of section link]
+![image of section link](./images/section-link.jpg)
 
 ## Images
 
