@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Setting up a Website from Zero
-permalink: setting-up
+title: Setting up a Jekyll Website Locally
+permalink: local-setup
 parent: Quick Start
 nav_order: 1
 ---
