@@ -6,7 +6,9 @@ permalink: markdown-basic
 
 # Markdown Basic Syntax
 
-This page will give you a quick guide through some of the Markdown syntax that you may use to edit your `.md` files. If you are editing in GitHub, the Preview button on top of the editing window allows you to view basic Markdown contents before you commit to the changes (Jekyll-specific features are not supported).
+Markdown is a markup languages you can use to add formatting elements to plaintext text documents. When you write in Markdown, it creates a text file with an `.md` or `.markdown` extension. Any application that's capable of processing Markdown files (which there are quite a few of!) can convert Markdown-formatted text into HTML so that it can be displayed in web browsers. Jekyll and GitHub Page are both applications that can process Markdown files. As a website development tool, Markdown has the benefit of being lightweight, portable (can be opened on by virtually any application), platform-independent, widly-supported and relatively easy to pick up. 
+
+This page will give you a quick guide through some of the Markdown syntax that you may use for your website. If you are editing in GitHub, the Preview button on top of the editing window allows you to view basic Markdown contents before you commit to the changes (Jekyll-specific features are not supported).
 
 For extra resources on Markdown syntax and editing Markdown on GitHub, these following resources may be helpful:
 1. [Basic Writing and Formatting Syntax on GitHub](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
@@ -196,15 +198,15 @@ will render
 
 To generate a simple table, use pipes `|` to delineate columns and three or more hyphens `---` to create each column's header. For example
 ```
-| Column 1 | Column 2|
-|--------|--------|
-|adding an item | adding another item |
+| Column 1 | Column 2 |
+|----------|------------|
+| adding an item | adding another item |
 ```
 will render
 
-| Column 1 | Column 2|
-|--------|--------|
-|adding an item | adding another item |
+| Column 1 | Column 2 |
+|----------|------------|
+| adding an item | adding another item |
 
 As you can see above, the lengths of the cells do not have to be the same.
 
