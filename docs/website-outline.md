@@ -9,3 +9,6 @@ Maybe something like:
 - Methodology
 - Data overview/data explorations
 - Conclusion
+- Fudning sources
+- Contributors
+   - Include contact info if appropriate
