@@ -1,7 +1,8 @@
 ---
 layout: page
 nav_order: 2
-parent: quick-start
+parent: Quick Start
+title: Importing a GitHub Template
 permalink: import-template
 ---
 
