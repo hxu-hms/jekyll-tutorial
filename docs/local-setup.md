@@ -86,7 +86,7 @@ Please head to [Installation](https://jekyllrb.com/docs/installation/#requiremen
 11. From command line, run `bundle update`.
 
 # Testing Site Locally
-At this stage you can already preview and test your site on your local server. It is highly recommended that you test your site multiple times locally, throughout the building process. 
+At this stage you can already preview and test your blank site on your local server. It is highly recommended that you test your site multiple times locally, throughout the building process. 
 1. To do so, run 
     ```
     $ bundle exec jekyll serve
@@ -95,3 +95,5 @@ At this stage you can already preview and test your site on your local server. I
 2. To preview the site, in your web browser, navigate to `http://localhost:4000`.
 
 _Ta-dah! Your website!_
+
+# Commit your work and set up GitHub Pages
