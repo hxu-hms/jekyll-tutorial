@@ -8,7 +8,7 @@ permalink: markdown-basic
 
 Markdown is a markup languages you can use to add formatting elements to plaintext text documents. When you write in Markdown, it creates a text file with an `.md` or `.markdown` extension. Any application that's capable of processing Markdown files (which there are quite a few of!) can convert Markdown-formatted text into HTML so that it can be displayed in web browsers. Jekyll and GitHub Page are both applications that can process Markdown files. As a website development tool, Markdown has the benefit of being lightweight, portable (can be opened on by virtually any application), platform-independent, widly-supported and relatively easy to pick up. 
 
-This page will give you a quick guide through some of the Markdown syntax that you may use for your website. If you are editing in GitHub, the Preview button on top of the editing window allows you to view basic Markdown contents before you commit to the changes (Jekyll-specific features are not supported).
+This page will give you a quick guide through some of the Markdown syntax that you may use for your website. If you are editing in GitHub, the Preview button on top of the editing window allows you to view basic Markdown contents before you commit to the changes (Jekyll-specific features are not supported). However, sometimes the GitHub Preview does not match the rendered website 100%, so make sure you double check on the actual website in the end.
 
 For extra resources on Markdown syntax and editing Markdown on GitHub, these following resources may be helpful:
 1. [Basic Writing and Formatting Syntax on GitHub](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
@@ -23,9 +23,9 @@ Leave a blank line before and after the heading for best practice.
 
 | Markdown | Rendered Output |
 |----------|-----------------|
-| `# Heading 1`| <h1> Heading 1 </h1> |
-|`## Heading 2`| <h2> Heading 2 </h2> |
-|`### Heading 3`| <h3> Heading 3 </h3> |
+| `# Heading 1`| # Heading 1 |
+|`## Heading 2`| ## Heading 2 |
+|`### Heading 3`| ### Heading 3 |
 
 ## Paragraph breaks
 
@@ -33,7 +33,7 @@ To break between paragraphs, use a blank line to seprate the paragraphs.
 
 | Markdown | Rendered Output |
 |----------|-----------------|
-| <p>`This is the first paragraph.`</p> <p>`This is the second paragraph.`</p>| <p>This is the first paragraph.</p> <p>This is the second paragraph.</p> |
+| `This is the first paragraph.`<br><br>`This is the second paragraph.`| This is the first paragraph.<br><br>This is the second paragraph. |
 
 ## Line breaks
 
@@ -64,10 +64,16 @@ Use one asterisk before and after a word or phrase to italicize it.
 ### Ordered lists
 
 Use number followed by a period and a space for line items in an ordered list. When editing in GitHub, numbers will autofill in numeric order. When editing locally, numbers don't have to follow numeric order, but lists should start at number 1.  
+```
+1. one
+2. two
+3. three
+```
+will render
 
-| Markdown | Rendered Output |
-|----------|-----------------|
-|`1. item`<br>`2. item`<br>`3. item`|<ol><li>item</li> <li>item</li> <li>item</li></ol>|
+1. one
+2. two
+3. three
 
 When editing in GitHub, add two `tab` to start a nested list. For example,
 
@@ -88,10 +94,15 @@ will render
 ## Unordered lists
 
 Use dash `-`, asterisk `*`, or plus sign `+` followed by space in front of an item in an unordered list. When editing in GitHub, GitHub will autofill the sign after the first item is entered.
-
-| Markdown | Rendered Output |
-|----------|-----------------|
-|`- one`<br> `- two`<br> `- three`|<ul><li>one</li> <li>two</li> <li>three</li></ul>|
+```
+- one
+- two
+- three
+```
+will render
+- one
+- two
+- three
 
 Use one `tab` to create a nested unordered list on GitHub. For example
 
