@@ -1,6 +1,7 @@
 ---
 layout: page
-nav_order: 21
-permalink: getting-help
+title: Getting Help
+nav_order: 19
+permalink: help
 ---
 Contact info
