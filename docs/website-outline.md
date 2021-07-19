@@ -2,6 +2,7 @@
 layout: page
 title: Suggested Website Outline
 permalink: website-outline
+nav_order: 5
 ---
 Suggest pages to include. This will differ based on the type of publication/project it is. 
 Maybe something like:
