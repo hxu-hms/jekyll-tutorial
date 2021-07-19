@@ -19,13 +19,16 @@ For extra resources on Markdown syntax and editing Markdown on GitHub, these fol
 ## Headings
 
 Adding number sign `#` followed by a space in front of a line creates a heading. The number of `#` added corresponds to heading level.  
-Leave a blank line before and after the heading for best practice. 
+Leave a blank line before and after the heading for best practice. See different levels of headings in the following examples:
 
-| Markdown | Rendered Output |
-|----------|-----------------|
-| `# Heading 1`| # Heading 1 |
-|`## Heading 2`| ## Heading 2 |
-|`### Heading 3`| ### Heading 3 |
+```
+# Heading 1
+## Heading 2
+### Heading 3
+```
+# Heading 1
+## Heading 2
+### Heading 3
 
 ## Paragraph breaks
 
