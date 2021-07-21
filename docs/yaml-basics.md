@@ -21,16 +21,19 @@ Two most common types of elements in YAML are mappings and lists.
   key: value
   ```
   for example:
+  
   ```
   flavor: chocolate
   ```
 - A list is a sequence of items. Each item starts with a hyphen. For example:
+ 
   ```
   cells:
     - name: monocyte
     - name: macrophage
     - name: neutrophil
   ```
+  
   You can use "for" loop to iterate through a list.
   
 ## YAML in Jekyll
