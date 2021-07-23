@@ -4,22 +4,19 @@ title: About
 permalink: /about/
 nav_order: 0
 ---
-- Why make a website
-- What is Jekyll and why do we use it
-- Specific instructions for HiTS/LSP
-    - formatting
-    - suggested pages
-    - links to landing pages etc.
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# Why would I make a website?
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+<img src="https://github.com/hxu-hms/jekyll-tutorial/blob/about-page-update/docs/images/open-science-logo.jpg" width="25%" height="25%"> <img src="https://github.com/hxu-hms/jekyll-tutorial/blob/about-page-update/docs/images/pro-dev-logo.jpg" width="35%" height="35%"> <img src="https://github.com/hxu-hms/jekyll-tutorial/blob/about-page-update/docs/images/policy-compliance-logo.png" width="32%" height="32%">
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+## Open Science
 
+Open science is the movement to make scientific research and data accessible to all. Open science campaign for open access publicatons, archieves and data repositories. Making a public-facing website to showcase your research is one of the best ways to participate in the open science movement. 
 
-[jekyll-organization]: https://github.com/jekyll
+Learn more about [open science and open access](https://datamanagement.hms.harvard.edu/access/open-access) from [Harvard Longwood Medical Area Research Data Management Working Group](https://datamanagement.hms.harvard.edu/).
+
+## Professional Development
+
+## Policy Compliance
+
+# Why should I use Jekyll?
