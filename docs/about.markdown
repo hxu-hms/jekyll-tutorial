@@ -7,7 +7,7 @@ nav_order: 0
 
 # Why would I make a website?
 
-<img src="https://github.com/hxu-hms/jekyll-tutorial/blob/about-page-update/docs/images/open-science-logo.jpg" width="25%" height="25%"> <img src="https://github.com/hxu-hms/jekyll-tutorial/blob/about-page-update/docs/images/pro-dev-logo.jpg" width="35%" height="35%"> <img src="https://github.com/hxu-hms/jekyll-tutorial/blob/about-page-update/docs/images/policy-compliance-logo.png" width="32%" height="32%">
+<img src="./images/open-science-logo.jpg" width="25%" height="25%"> <img src="./images/pro-dev-logo.jpg" width="35%" height="35%"> <img src="./images/policy-compliance-logo.png" width="32%" height="32%">
 
 ## Open Science
 
