@@ -3,7 +3,7 @@ layout: page
 nav_order: 1
 has_children: true
 title: Before you start
-permalink: /before-start
+permalink: /before-start/
 ---
 
 # Data management
