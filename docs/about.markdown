@@ -5,6 +5,15 @@ permalink: /about/
 nav_order: 0
 ---
 
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
+
 # Why would I make a website?
 
 ![open science](./images/open-science-logo-2.jpg)
