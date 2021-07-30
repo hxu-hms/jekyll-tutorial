@@ -52,3 +52,4 @@ title: example of front matter
 permalink: example
 published: true
 ---
+```
