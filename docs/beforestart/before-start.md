@@ -1,7 +1,7 @@
 ---
 layout: page
 nav_order: 1
-has_children: true
+has_children: false
 title: Before you start
 permalink: /before-start/
 ---
