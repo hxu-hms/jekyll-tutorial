@@ -6,10 +6,7 @@ title: Before you start
 permalink: /before-start/
 ---
 
-This section will guild you through a few items of note to sort out _before_ you start building your website. It will include:
-* Data Management
-* Protocol Documentation
-* Setting up GitHub account and obtaining permission to post as a LSP member
+This page will guild you through a few items of note to sort out _before_ you start building your website. It will include:
 
 <details open markdown="block">
   <summary>
@@ -31,8 +28,6 @@ Having a well managed dataset is the foundation of your website. Here are a few 
     * Know what types of access they *should not* have. E.g. deletion, editing etc.
 * Is your data well-named and organized for a public audience (this audience likely includes your reviewers!)?
 * If dataset contains unpublished data, make sure you know which parts your website will be linking to
-
-# protocol documentation
 
 # GitHub account setup
 
