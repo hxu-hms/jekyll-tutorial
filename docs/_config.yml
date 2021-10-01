@@ -3,8 +3,8 @@ title: Jekyll Tutorial
 description: Jekyll tutorial for LSP and HiTS users
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
-logo:
-hero_background:
+logo: "/assets/images/jekyll_logo.jpg"
+hero_background: "/assets/images/hero_background.jpg"
 
 # Build settings
 # theme: minima
