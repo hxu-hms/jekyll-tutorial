@@ -8,6 +8,8 @@ permalink: /before-start/
 
 This page will guild you through a few items of note to sort out _before_ you start building your website. It will include:
 
+{: .no_toc }
+
 <details open markdown="block">
   <summary>
     Table of contents
