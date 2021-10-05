@@ -61,10 +61,6 @@ gh_edit_branch: "new_theme" # the branch that your docs is served from
 gh_edit_source: docs # the source that your files originate from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
 
-# allowing kramdown
-kramdown:
-  parse_block_html: true
-
 repository: hxu-hms/jekyll-tutorial
 
 # Exclude from processing.
