@@ -1,6 +1,10 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: default
+title: Home
+hero_heading: "Jekyll Tutorial"
+hero_body: "Welcome to the Jekyll Tutorial for LSP and HiTS members! This website houses tutorials and resources you may need to build a Jekyll website for your project or publication."
+hero_ctas:
+  - label: "QUICK START"
+    link: "workflow/"
+last_modified_date: 2021-10-05
 ---
