@@ -14,14 +14,13 @@ last_modified_date: 2021-10-05
 
 <div class="basic-grid with-dividers">
   
-  <div markdown="1">
-    ## Custom Style
-    Professionally stylizes templat designed for LSP and HiTS use.
-  </div>
-  
-  <div markdown="1">
-    ## Easy Editing
-    Import the blank website repo to start building your website. No need to install anything!
-  </div>
+<div markdown="1">
+## Custom Style
+Professionally stylizes templat designed for LSP and HiTS use.
+</div>
+<div markdown="1">
+## Easy Editing
+Import the blank website repo to start building your website. No need to install anything!
+</div>
   
 </div><!-- end grid -->
