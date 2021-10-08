@@ -9,7 +9,7 @@ has_children: true
 # Importing Website Template on GitHub
 
 1. Set up your GitHub account
-3. [Import](https://github.com/new/import) the website template. Set Laboratory of System Pharmacology @ Harvard (labsyspharm) as owner.
+3. [Import](https://github.com/new/import) the website template. Set Laboratory of Systems Pharmacology @ Harvard (labsyspharm) as owner.
 4. Fill the template with your own content
 5. Set up GitHub Pages to make your website public
 
