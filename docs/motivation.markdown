@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Motivation
+permalink: motivation/
 nav_order: 2
 ---
 
