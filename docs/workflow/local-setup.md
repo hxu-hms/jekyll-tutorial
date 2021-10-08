@@ -3,7 +3,7 @@ layout: page
 title: Setting up a Jekyll Website Locally
 permalink: local-setup
 parent: Quick Start
-nav_order: 2
+nav_order: 4
 ---
 # Before the Start
 The following step-by-step guide will help you create a Jekyll site to be hosted on GitHub. Before we start, here are some helpful notations to know:
