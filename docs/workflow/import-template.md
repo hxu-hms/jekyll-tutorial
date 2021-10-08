@@ -16,9 +16,12 @@ If you are a member of the Laboratory of Systems Pharmacology, please contact Je
 
 # Importing template repository on GitHub
 
-[GitHub import function](https://github.com/new/import)
+1. Start a new repository under [**Laboratory of Systems Pharmacology @ Harvard**](https://github.com/labsyspharm). Choose _Import a repository_, on the right side of the title. For more information on the Import function, you can check out GitHub's [Documentaion](https://docs.github.com/en/github/importing-your-projects-to-github/importing-source-code-to-github/importing-a-repository-with-github-importer) on it.
+2. Use the URL for the blank site template as _old repository's clone URL_ and set **labsyspharm** as the owner.
 
-[Documentaion on the import function](https://docs.github.com/en/github/importing-your-projects-to-github/importing-source-code-to-github/importing-a-repository-with-github-importer)
+![import example](../images/import-screenshot.PNG)
+
+3. You should now have a copy of the blank website template in a new repository with your website name. 
 
 # Adding and edting pages on GitHub
 
@@ -31,6 +34,6 @@ After you are happy with your site, you can set it up to be displayed:
 2. Within Settings, head over to Pages and change the default Source to the branch and folder where your website files are stored.
 3. Click "Save" after configruing the source. A banner should show up to show that your website is "Your site is ready to be published at *url*" and eventually "your site is published at *url*".
 
-![screenshot of banner](./images/ghpages-setup.jpg)
+![screenshot of banner](../images/ghpages-setup.jpg)
 
 Now, if you head to the displayed *url*, you should see your finished website. 
