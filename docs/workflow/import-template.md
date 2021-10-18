@@ -12,20 +12,22 @@ To start off, since your website will be hosted by GitHub, you need a [personal 
 
 If you do not have one right now, head over to [GitHub](https://github.com/) and sign up for one. Make sure this account is associated with an email that you check regularly. 
 
-If you are a member of the Laboratory of Systems Pharmacology, please contact Jeremy to be invited to join the LSP group on GitHub.
+If you are a member of the Laboratory of Systems Pharmacology, please contact Jeremy Muhlich to be invited to join the **Laboratory of Systems Pharmaclogy @ Harvard** organization on GitHub.
 
 # Importing template repository on GitHub
 
 1. Start a new repository under [**Laboratory of Systems Pharmacology @ Harvard**](https://github.com/labsyspharm). Choose _Import a repository_, on the right side of the title. For more information on the Import function, you can check out GitHub's [Documentaion](https://docs.github.com/en/github/importing-your-projects-to-github/importing-source-code-to-github/importing-a-repository-with-github-importer) on it.
-2. Use the URL for the blank site template as _old repository's clone URL_ and set **labsyspharm** as the owner.
+2. Use the URL for the blank site template `https://github.com/labsyspharm/blank-pub-microsite/` as _old repository's clone URL_ and set **labsyspharm** as the owner.
 
-![import example](../images/import-screenshot.PNG)
+<img src="../images/import-screenshot.PNG" alt="import_example" width="700"/>
 
 3. You should now have a copy of the blank website template in a new repository with your website name. 
 
 # Adding and edting pages on GitHub
 
-Adding and editing pages can be achieved by adding and editing Markdown files in the website repository. Each Markdown file corresponds to a page in the final website. This tutorial website includes some [Markdown basic syntax](./markdown-basic) to get you started.
+Each Markdown file in the `docs` folder corresponds to a page in the final website. Adding and editing pages can be done directly in the GitHub repository. 
+
+To add a page, create a new file under `docs` folder and name it with the suffix `.md`. To edit an existing page, open the markdown file and start editing it by clicking the _pencil_ icon in the top right tool bar. This tutorial website includes some [Markdown basic syntax](./markdown-basic) to get you started.
 
 # Setting up GitHub pages
 
