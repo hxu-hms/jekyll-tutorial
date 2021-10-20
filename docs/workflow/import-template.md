@@ -17,7 +17,7 @@ If you are a member of the Laboratory of Systems Pharmacology, please contact Je
 1. Start a new repository under [**Laboratory of Systems Pharmacology @ Harvard**](https://github.com/labsyspharm). Choose _Import a repository_, on the right side of the title. For more information on the Import function, you can check out GitHub's [Documentaion](https://docs.github.com/en/github/importing-your-projects-to-github/importing-source-code-to-github/importing-a-repository-with-github-importer) on it.
 1. Use the URL for the blank site template `https://github.com/labsyspharm/blank-pub-microsite/` as _old repository's clone URL_ and set **labsyspharm** as the owner.
 
-    <img src="../images/import-screenshot.PNG" alt="import_example" width="700"/>
+    <img src="images/import-screenshot.PNG" alt="import_example" width="700"/>
 
 3. You should now have a copy of the blank website template in a new repository with your website name. 
 
