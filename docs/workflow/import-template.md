@@ -6,6 +6,15 @@ title: Importing a GitHub Template
 permalink: import-template
 ---
 
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
 # Setting up a GitHub account
 
 To start off, since your website will be hosted by GitHub, you need a [personal GitHub account](https://docs.github.com/en/get-started/learning-about-github/types-of-github-accounts#personal-user-accounts). You can set one up at [GitHub](https://github.com/). Make sure this account is associated with an email that you check regularly. 

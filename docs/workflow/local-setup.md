@@ -6,11 +6,20 @@ parent: Quick Start
 nav_order: 4
 ---
 # Before the Start
+{: .no_toc }
 Before we start, here are some helpful notations to know:
 ```
 $ denotes the start of a command line. You type these command lines into your command prompt window and press Enter to execute it.
 # denotes a note or description. You do not need to type this.
 ```
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
 
 # Installing Jekyll
 Jekyll documentation provides step-by-step guides for installation on macOS, Windows, Ubuntu and other Linux systems. 

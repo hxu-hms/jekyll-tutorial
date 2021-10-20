@@ -1,13 +1,19 @@
 ---
 layout: page
-title: Themes and Layouts
-permalink: themes-and-layouts
-nav_order: 4
+title: LSP Custom Theme
+permalink: lsp-theme/
+nav_order: 5
 ---
-# Basics
+# LSP Custom Theme
+{: .no_toc }
 
-# LSP-specific layout
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
 
-## How to use it
-
-## How to make customizations
+#
