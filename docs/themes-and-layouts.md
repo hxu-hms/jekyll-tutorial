@@ -20,6 +20,23 @@ However, this is not an all-emcopassing list. For information on the rest of the
 {:toc}
 </details>
 
+# Applying the Theme
+
+If you are importing the blank website template, the LSP theme is already applied to the template. You can add, edit or remove the elements based on your need.
+
+If you are starting a website from scratch, or adapting your existing Jekyll website to use the LSP theme. You need to
+
+1. In `_config.yml` file, insert the following line (to replace the esiting `theme` or `remote_theme` variable)
+    ```
+    remote_theme: jegra/just-the-docs@hms
+    ```
+
+2. Make sure that remote theme is enables by adding
+    ```
+    plugins:
+        - jekyll-remote-theme
+    ```
+
 # Hero Banner
 
 Hero banner and text shows off your content immediately on the home page. It looks something like this:
@@ -60,11 +77,37 @@ To make a hero graphic banner:
     ```
 For more information on hero banner, check out [theme documentation](https://jegra.github.io/just-the-docs/docs/ui-components/hero/).
 
-# Basic Grid
+# Header Logos
+
+# Footer
+
+## Footer logos
+
+## Licenses
+
+## Edit this Page on GitHub
+
+## Last Modified Date
+
+# Highlighted Stlying Elements and UIs
+
+Stlying elements and UIs in this template is well-documented by the designer. This section will highlight a few elements and UIs that may be the most relevant for your website and point to their documentations.
+
+## Basic Grid
 
 The basic grid is an esay way to inject visual intrigue into your site's layout. It is also a great method of showing off parallel pieces of information. The results looks like this
 
-![basic grid](../images/basic-grid/png)
+![basic grid](../images/basic-grid.png)
 
-Basic grids are created with some HTML wrappers.
+
+## Enhanced Grid
+
+## Image Cards
+
+## Navigation
+
+## Video Embedding
+
+
+
 
