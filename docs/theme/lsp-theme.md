@@ -2,7 +2,7 @@
 layout: page
 title: LSP Custom Theme
 permalink: lsp-theme/
-nav_order: 5
+nav_order: 4
 has_children: true
 ---
 # LSP Custom Theme

@@ -2,7 +2,7 @@
 layout: page
 title: Motivation
 permalink: motivation/
-nav_order: 2
+nav_order: 1
 ---
 
 # Why would I make a website?
