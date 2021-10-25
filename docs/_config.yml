@@ -49,6 +49,7 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
   - jekyll-seo-tag
+  - jekyll-include-cache
   
 # Back to top
 back_to_top: true
