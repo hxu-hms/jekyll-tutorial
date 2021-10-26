@@ -8,7 +8,7 @@ hero_background: "/assets/images/hero_background.jpg"
 
 # Build settings
 #remote_theme: pmarsceill/just-the-docs
-remote_theme: jegra/just-the-docs@hms
+remote_theme: labsyspharm/just-the-docs-lsp
 # color_scheme: "dark"
 color_scheme: lsp
 
@@ -28,8 +28,13 @@ aux_links_new_tab: false
 footer_content:
 
 # Provide license information for the project
-license_name: 
-license_url: 
+license:
+  - description: 
+    name: "CC0 1.0"
+    url: "https://github.com/hxu-hms/jekyll-tutorial/blob/main/LICENSE"
+  - description: "The theme of this website just-the-docs@hms is licensed under"
+    name: "MIT License"
+    url: "https://github.com/jegra/just-the-docs/blob/master/LICENSE.txt"
 
 # Linked logos
 footer_logos:
@@ -44,6 +49,7 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
   - jekyll-seo-tag
+  - jekyll-include-cache
   
 # Back to top
 back_to_top: true

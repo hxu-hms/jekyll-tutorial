@@ -6,6 +6,15 @@ title: Importing a GitHub Template
 permalink: import-template
 ---
 
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
 # Setting up a GitHub account
 
 To start off, since your website will be hosted by GitHub, you need a [personal GitHub account](https://docs.github.com/en/get-started/learning-about-github/types-of-github-accounts#personal-user-accounts). You can set one up at [GitHub](https://github.com/). Make sure this account is associated with an email that you check regularly. 
@@ -17,7 +26,7 @@ If you are a member of the Laboratory of Systems Pharmacology, please contact Je
 1. Start a new repository under [**Laboratory of Systems Pharmacology @ Harvard**](https://github.com/labsyspharm). Choose _Import a repository_, on the right side of the title. For more information on the Import function, you can check out GitHub's [Documentaion](https://docs.github.com/en/github/importing-your-projects-to-github/importing-source-code-to-github/importing-a-repository-with-github-importer) on it.
 1. Use the URL for the blank site template `https://github.com/labsyspharm/blank-pub-microsite/` as _old repository's clone URL_ and set **labsyspharm** as the owner.
 
-    <img src="../images/import-screenshot.PNG" alt="import_example" width="700"/>
+    <img src="images/import-screenshot.PNG" alt="import_example" width="700"/>
 
 3. You should now have a copy of the blank website template in a new repository with your website name. 
 
