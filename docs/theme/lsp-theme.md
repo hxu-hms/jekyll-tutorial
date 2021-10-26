@@ -9,7 +9,7 @@ has_children: true
 
 This section is a guide on the LSP theme: how to apply the theme, LSP/HiTS-related theme elements and several styling components that may be most relevant for showcasing academic/scientific content.
 
-However, this is not a complete documentation. For information on the rest of the theme, you can check out the [documentation](https://labsyspharm.github.io/just-the-docs/) and [repository](https://github.com/labsyspharm/just-the-docs/) (LSP-specific theme is under `hms` branch).
+However, this is not a complete documentation. For information on the rest of the theme, you can check out the [documentation](https://labsyspharm.github.io/just-the-docs-lsp/) and [repository](https://github.com/labsyspharm/just-the-docs-lsp) (LSP-specific theme is under `hms` branch).
 
 # Applying the Theme
 
