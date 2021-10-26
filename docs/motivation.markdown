@@ -31,7 +31,7 @@ That's a fair question! Jekyll as a website design and build tool has a number o
 
 Additionally, because Jekyll webiste is a directory of files, you can store your entire website on a Git repository (like [GitHub](https://github.com)). Working in a Git repository gives you [many benefits](https://www.atlassian.com/git/tutorials/why-git) including version control and easy collaboration. 
 
-GitHub will also host your Jekyll website for free in [GitHub Pages](https://pages.github.com/)! You can even do most of your editing on GitHub and have no need to install any additional software on your computer if you choose to take the [import template](./import-template) route described in this tutorial. 
+GitHub will also host your Jekyll website for free in [GitHub Pages](https://pages.github.com/)! You can even do most of your editing on GitHub and have no need to install any additional software on your computer if you choose to take the [import template](../import-template) route described in this tutorial. 
 
 ## Some downsides and how we can help
 
@@ -39,7 +39,7 @@ Of course, nothing is without its drawbacks. Working with Jekyll has some downsi
 
 - Jekyll does not have a built-in GUI.
   
-  Jekyll is a command-line tool, which could seem overwelming to non-technical users. Using the LSP template eliminates a lot of the need to use Jekyll command lines, but if you are new to formatting languages like Markdown and YAML, it can still be disorienting. We recommend checking out our pages on [Markdown](./markdown-basic) and [YAML](./yaml) basics that are most useful while building a Jekyll website. There are additional learning resources linked in those pages as well, if you want to learn more about these languages.
+  Jekyll is a command-line tool, which could seem overwelming to non-technical users. Using the LSP template eliminates a lot of the need to use Jekyll command lines, but if you are new to formatting languages like Markdown and YAML, it can still be disorienting. We recommend checking out our pages on [Markdown](../markdown-basic) and [YAML](../yaml) basics that are most useful while building a Jekyll website. There are additional learning resources linked in those pages as well, if you want to learn more about these languages.
   
 - Jekyll has relatively few themes
 
@@ -47,4 +47,4 @@ Of course, nothing is without its drawbacks. Working with Jekyll has some downsi
 
 - Jekyll has a smaller community to offer support (than WordPress for example)
 
-  Fear not! In our [Get Help](./help) page, you can find ways to contact people within LSP that can offer you technical support when you need them. 
+  Fear not! In our [Contacts](../contacts#getting-help) page, you can find ways to contact people within LSP that can offer you technical support when you need them. 
