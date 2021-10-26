@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Contacts
 nav_order: 19
 permalink: contacts/
 ---
