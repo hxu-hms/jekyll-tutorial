@@ -32,9 +32,9 @@ license:
   - description: 
     name: "CC0 1.0"
     url: "https://github.com/hxu-hms/jekyll-tutorial/blob/main/LICENSE"
-  - description: "The theme of this website just-the-docs@hms is licensed under"
+  - description: "The theme of this website just-the-docs-lsp is licensed under"
     name: "MIT License"
-    url: "https://github.com/jegra/just-the-docs/blob/master/LICENSE.txt"
+    url: "https://github.com/labsyspharm/just-the-docs-lsp/blob/main/LICENSE.txt"
 
 # Linked logos
 footer_logos:
