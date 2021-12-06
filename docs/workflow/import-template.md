@@ -34,9 +34,9 @@ If you are a member of the Laboratory of Systems Pharmacology, please contact Je
 
 Each Markdown file in the `docs` folder corresponds to a page in the final website. Adding and editing pages can be done directly in the GitHub repository. 
 
-To add a page, create a new file under `docs` folder and name it with the suffix `.md`. To edit an existing page, open the markdown file and start editing it by clicking the _pencil_ icon in the top right tool bar. This tutorial website includes some [Markdown basic syntax](../markdown-basic) to get you started.
+To add a page, create a new file under `docs` folder and name it with the suffix `.md`. To edit an existing page, open the markdown file and start editing it by clicking the _pencil_ icon in the top right tool bar. This tutorial website includes some [Markdown basic syntax](./markdown-basic) to get you started.
 
-More details on the blank website template and how to use it can be found on the [website template](../website-template/) page.
+More details on the blank website template and how to use it can be found on the [website template](./website-template/) page.
 
 # Setting up GitHub pages
 
