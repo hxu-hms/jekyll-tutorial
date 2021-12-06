@@ -21,7 +21,7 @@ Another exmaple of the use a basic grid is on the [Methodology](https://labsysph
 
 ## Enhanced Grid
 
-[See Documentation](https://labsyspharm.github.io/just-the-docs-lsp/docs/utilities/layout/#benhanced-grid){: .btn .btn-green }
+[See Documentation](https://labsyspharm.github.io/just-the-docs-lsp/docs/utilities/layout/#enhanced-grid){: .btn .btn-green }
 
 An enhanced grid allows you to customize the space designated to each element of the grid. It will automatically adjust to the screen size. 
 
