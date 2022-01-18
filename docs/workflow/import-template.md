@@ -30,13 +30,24 @@ If you are a member of the Laboratory of Systems Pharmacology, please contact Je
 
 3. You should now have a copy of the blank website template in a new repository with your website name. 
 
-# Adding and edting pages on GitHub
+More details on the blank website template and how to use it can be found on the [website template](./website-template/) page.
+
+# Adding pages on GitHub
 
 Each Markdown file in the `docs` folder corresponds to a page in the final website. Adding and editing pages can be done directly in the GitHub repository. 
 
-To add a page, create a new file under `docs` folder and name it with the suffix `.md`. To edit an existing page, open the markdown file and start editing it by clicking the _pencil_ icon in the top right tool bar. This tutorial website includes some [Markdown basic syntax](./markdown-basic) to get you started.
+To add a page, follow these steps:
 
-More details on the blank website template and how to use it can be found on the [website template](./website-template/) page.
+1. Navigate to `docs` folder and select **Add file** then **Create new file**
+
+![screenshot of adding a page](../assets/images/add-page.png)
+
+2. Make sure your new file name ends with the file extension `.md`. 
+3. Your new page is now ready to be edited. 
+
+# Editing pages on GitHub
+
+To edit an existing page, open the markdown file and start editing it by clicking the _pencil_ icon in the top right tool bar. This tutorial website includes some [Markdown basic syntax](./markdown-basic) to get you started.
 
 # Setting up GitHub pages
 
