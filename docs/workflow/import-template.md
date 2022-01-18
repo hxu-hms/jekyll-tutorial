@@ -43,7 +43,19 @@ To add a page, follow these steps:
 ![screenshot of adding a page](../assets/images/add-page.png)
 
 2. Make sure your new file name ends with the file extension `.md`. 
-3. Your new page is now ready to be edited. 
+3. Your new page is now ready to be edited! I recommend writing a basic front matter to begin with: (`#` denotes commentary. What comes after `#` on the same line will not be executed)
+
+```
+---
+Layout: default
+# If you are working with the LSP-custom these (labsyspharm/just-the-docs-lsp), you should use the default layout option. If you are working with other themes, you should consult documentations of the theme for specific recommendations.
+Title: Tutorials
+# This page title will appear in navigation bar.
+nav_order: 8
+# nav_order determines the order this page shows up on the left side navigation bar. Pages are sorted from low to high nav_order. Numbers do not have to be consecutive.
+---
+```
+Your other content should be written in Markdown below the `---` at the bottom of the front matter. More information on the front matter can be found [here](./yaml).
 
 # Editing pages on GitHub
 
