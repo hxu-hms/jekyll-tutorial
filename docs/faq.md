@@ -6,6 +6,15 @@ permalink: /faq
 ---
 # Frequently Asked Questions
 
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
 ## How do I change the font size of the whole website?
 
 If you want to alter the default font size globally, [documentation](https://labsyspharm.github.io/just-the-docs-lsp/docs/utilities/typography/#global-font-size-adjustments) for the LSP/HiTS theme provides details instructions. 
@@ -48,9 +57,30 @@ As an example, here's the same image inserted at the orginal size and then scale
 <img scr='images/neuron-drawing.jpg" alt="smaller neuron drawing" width="300"/>
 ```
 
-![original size neuron drawing](./images/neuron-drawing.jpg)
+![original size neuron drawing](./images/neuron-drawing.jpg)  
 
-<img scr='images/neuron-drawing.jpg" alt="smaller neuron drawing" width="300"/>
+## How do I exclude a page from showing up in navigation?
+          
+You may want to exclude some pages from navigation and only lead viewers to them via links. To accomplish this, you can choose from two expressions in the front matter of that page:
+```
+---
+exclude: true
+---
+```
+or
+```
+---
+nav_exlude: true
+---
+```
+
+## How do I create a link that opens a new tab by default?
+
+You can use the following addition to the link syntax:
+```
+[new tab link](https://mcmicro.org/){:target="_blank"}
+```
+It should render: [new tab link](https://mcmicro.org/){:target="_blank"}
 
 
-
+          
