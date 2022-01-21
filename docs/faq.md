@@ -2,6 +2,7 @@
 layout: default
 title: FAQs
 nav_order: 8
+nav_exclude: ture
 permalink: /faq
 ---
 # Frequently Asked Questions
@@ -82,5 +83,16 @@ You can use the following addition to the link syntax:
 ```
 It should render: [new tab link](https://mcmicro.org/){:target="_blank"}
 
+## How do I change the license of my website? What about adding a license?
+
+The blank website template comes with a `LICENSE` file in the root directory. It is set to a Creative Commons Zero v1.0 Universal license. 
+
+To change the type of license, simply edit (pencil icon) the `LICENSE` file. GitHub will prompt you to **Choose a licence template**
+
+![choose license screenshot](./images/choose-license.png)
+
+Most software/code-related work product of LSP and HiTS are released under the MIT license. To learn more about different types of licenses, [Creative Commons](https://creativecommons.org/)(https://creativecommons.org/) is a great resrouce.
+
+To add a new license to your repository, you can add a new file titled `LICENSE` on GitHub. You will be prompted to choose from a list of license templates as well.
 
           
