@@ -2,7 +2,7 @@
 layout: default
 title: FAQs
 nav_order: 8
-nav_exclude: ture
+nav_exclude: false
 permalink: /faq
 ---
 # Frequently Asked Questions
@@ -55,20 +55,17 @@ Note that `alt=` is setting the alternative text for the image, when the image c
 As an example, here's the same image inserted at the orginal size and then scaled smaller:
 ```
 ![original size neuron drawing](./images/neuron-drawing.jpg)
-<img scr='images/neuron-drawing.jpg" alt="smaller neuron drawing" width="300"/>
+<img src="images/neuron-drawing.jpg" alt="smaller neuron drawing" width="600"/>
 ```
 
 ![original size neuron drawing](./images/neuron-drawing.jpg)  
 
+<img src="images/neuron-drawing.jpg" alt="smaller neuron drawing" width="600"/>
+
 ## How do I exclude a page from showing up in navigation?
           
-You may want to exclude some pages from navigation and only lead viewers to them via links. To accomplish this, you can choose from two expressions in the front matter of that page:
-```
----
-exclude: true
----
-```
-or
+You may want to exclude some pages from navigation and only lead viewers to them via links. To accomplish this, you can add the property `nav_exclude` in the front matter of that page and set it to `true`:
+
 ```
 ---
 nav_exlude: true
@@ -91,8 +88,8 @@ To change the type of license, simply edit (pencil icon) the `LICENSE` file. Git
 
 ![choose license screenshot](./images/choose-license.png)
 
-Most software/code-related work product of LSP and HiTS are released under the MIT license. To learn more about different types of licenses, [Creative Commons](https://creativecommons.org/)(https://creativecommons.org/) is a great resrouce.
+Most software/code-related work product of LSP and HiTS are released under the [MIT license](https://choosealicense.com/licenses/mit/). Another type of commonly used licenses is the Creative Commons licenses, which you can read about on the [Creative Common website](https://creativecommons.org/about/cclicenses/) (https://creativecommons.org/about/cclicenses/). Finally, [Choose a License](https://choosealicense.com/) (https://www.choosealicense.com) is a helpful resource to learn about available license templates and choose a license based on your situation.
 
-To add a new license to your repository, you can add a new file titled `LICENSE` on GitHub. You will be prompted to choose from a list of license templates as well.
+To add a new license to your repository, you can add a new file titled `LICENSE` on GitHub. You will be prompted to choose from a list of license templates.
 
           
