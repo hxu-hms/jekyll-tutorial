@@ -19,7 +19,7 @@ parent: LSP Custom Theme
 
 ## Hero Banner
 
-[Hero banner](https://labsyspharm.github.io/just-the-docs-lsp/docs/ui-components/hero/) and text shows off your content immediately on the home page. It looks something like this:
+[Hero banner](https://labsyspharm.github.io/just-the-docs-lsp/docs/ui-components/hero/){:target="_blank"} and text shows off your content immediately on the home page. It looks something like this:
 
 <div class="row">
 
@@ -57,14 +57,14 @@ To make a hero graphic banner:
     ```
 
 ## Site Logo
-[Sit logo](https://labsyspharm.github.io/just-the-docs-lsp/docs/configuration/#site-logo) is set in `_config.yml` file by setting the path to the logo file. As an example:
+[Sit logo](https://labsyspharm.github.io/just-the-docs-lsp/docs/configuration/#site-logo){:target="_blank"} is set in `_config.yml` file by setting the path to the logo file. As an example:
 ```
 logo: "/assets/images/just-the-docs.png"
 ```
 
 ## Top Banner Logos
 
-[Top banner logos](https://labsyspharm.github.io/just-the-docs-lsp/docs/configuration/#top-banner) of LSP and/or HiTS can be enabled in `_config.yml` file
+[Top banner logos](https://labsyspharm.github.io/just-the-docs-lsp/docs/configuration/#top-banner){:target="_blank"} of LSP and/or HiTS can be enabled in `_config.yml` file
 ```
 banner_links:
     lsp: true
@@ -75,7 +75,7 @@ The results looks like this
 
 ## Footer
 
-All content  in the [Footer](https://labsyspharm.github.io/just-the-docs-lsp/docs/configuration/#footer-content) can be customized in the `_config.yml` file as well.
+All content  in the [Footer](https://labsyspharm.github.io/just-the-docs-lsp/docs/configuration/#footer-content){:target="_blank"} can be customized in the `_config.yml` file as well.
 ### Footer logos
 Footer logos are set by a list of YAML values. Logo images are built into the theme and exist in the theme repository, so **you do not need to have these files in your website's repository**!
 
@@ -102,5 +102,5 @@ license:
 ```
 
 ### Other Footer Content
-Other optional footer content includes a "Edit this page on GitHub"link and "Page Last Modified: DATE". Instructions on their customizations can be found on the [footer content documentation](https://labsyspharm.github.io/just-the-docs-lsp/docs/configuration/#footer-content) as well.
+Other optional footer content includes a "Edit this page on GitHub"link and "Page Last Modified: DATE". Instructions on their customizations can be found on the [footer content documentation](https://labsyspharm.github.io/just-the-docs-lsp/docs/configuration/#footer-content){:target="_blank"} as well.
 
