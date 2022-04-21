@@ -7,8 +7,8 @@ nav_order: 5
 
 # Blank Website Template
 
-[View Template](https://labsyspharm.github.io/blank-pub-microsite/){: .btn .btn-outline .btn-arrow }
-[View Repository](https://github.com/labsyspharm/blank-pub-microsite){: .btn .btn-outline .btn-arrow }
+[View Template](https://labsyspharm.github.io/blank-method-microsite/){: .btn .btn-outline .btn-arrow }
+[View Repository](https://github.com/labsyspharm/blank-method-microsite){: .btn .btn-outline .btn-arrow }
 
 This blank website template allows you to make a Jekyll website without having to install Jekyll. You can import this template following the provided [instructions](../import-template), then edit and add pages directly on GitHub.
 
