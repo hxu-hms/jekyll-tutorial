@@ -20,15 +20,15 @@ Here are the two templates:
 
 ## Software Website
 
-[View Template](https://labsyspharm.github.io/blank-software-website/){: .btn .btn-outline .btn-arrow }
-[View Repository](https://github.com/labsyspharm/blank-software-website){: .btn .btn-outline .btn-arrow }
+[View Template](https://labsyspharm.github.io/blank-software-website/){: .btn .btn-outline .btn-arrow }{:target="_blank"}
+[View Repository](https://github.com/labsyspharm/blank-software-website){: .btn .btn-outline .btn-arrow }{:target="_blank"}
 
 <br>
 
 ## Method Website
 
-[View Template](https://labsyspharm.github.io/blank-method-microsite/){: .btn .btn-outline .btn-arrow }
-[View Repository](https://github.com/labsyspharm/blank-method-microsite){: .btn .btn-outline .btn-arrow }
+[View Template](https://labsyspharm.github.io/blank-method-microsite/){: .btn .btn-outline .btn-arrow }{:target="_blank"}
+[View Repository](https://github.com/labsyspharm/blank-method-microsite){: .btn .btn-outline .btn-arrow }{:target="_blank"}
 
 <br>
 
