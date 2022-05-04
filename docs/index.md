@@ -16,11 +16,11 @@ last_modified_date: 2021-10-05
   
 <div markdown="1">
 ## Custom Style
-Professionally stylizes templat designed for LSP and HiTS use.
+Professionally stylized template designed for LSP and HiTS members.
 </div>
 <div markdown="1">
 ## Easy Editing
-Import the blank website repo to start building your website. No need to install anything!
+Import one of the website template repos to start building your website - no need to install anything!
 </div>
   
 </div><!-- end grid -->

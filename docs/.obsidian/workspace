@@ -1,0 +1,101 @@
+{
+  "main": {
+    "id": "02c23df2258c5a2d",
+    "type": "split",
+    "children": [
+      {
+        "id": "c630bbfdf4b2d160",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "motivation.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a272486691445798",
+    "type": "split",
+    "children": [
+      {
+        "id": "5556a073a452ca2e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fa01f315af1af77f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "5985a62f62fe25ab",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9d9ef29f2bb62a1c",
+    "type": "split",
+    "children": [
+      {
+        "id": "b9c90c0bd3b00365",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1a561382f963c277",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "motivation.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "c630bbfdf4b2d160",
+  "lastOpenFiles": [
+    "motivation.md",
+    "markdown-basics.md",
+    "index.md",
+    "beforestart/before-start.md",
+    "theme/lsp-theme.md",
+    "contacts.md",
+    "faq.md",
+    "website-template.md",
+    "yaml-basics.md"
+  ]
+}
