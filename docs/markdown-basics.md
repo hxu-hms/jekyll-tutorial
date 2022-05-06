@@ -6,7 +6,7 @@ permalink: markdown-basic
 
 # Markdown Basic Syntax
 
-Markdown is a markup languages you can use to add formatting elements to plaintext text documents. When you write in Markdown, it creates a text file with an `.md` or `.markdown` extension. Any application that's capable of processing Markdown files (which there are quite a few of!) can convert Markdown-formatted text into HTML so that it can be displayed in web browsers. Jekyll and GitHub Page are both applications that can process Markdown files. As a website development tool, Markdown has the benefit of being lightweight, portable (can be opened on by virtually any application), platform-independent, widly-supported and relatively easy to pick up. 
+Markdown is a markup languages you can use to add formatting elements to plaintext text documents. When you write in Markdown, it creates a text file with an `.md` or `.markdown` extension. Any application that's capable of processing Markdown files (there are many!) can convert Markdown-formatted text into HTML so that it can be displayed in web browsers. Jekyll and GitHub Page are both applications that can process Markdown files. As a website development tool, Markdown has the benefit of being lightweight, portable (can be opened on by virtually any application), platform-independent, widely-supported and relatively easy to pick up. 
 
 This page will give you a quick guide through some of the Markdown syntax that you may use for your website. If you are editing in GitHub, the Preview button on top of the editing window allows you to view basic Markdown contents before you commit to the changes (Jekyll-specific features are not supported). However, sometimes the GitHub Preview does not match the rendered website 100%, so make sure you double check on the actual website in the end.
 
@@ -32,7 +32,7 @@ Leave a blank line before and after the heading for best practice. See different
 
 ## Paragraph breaks
 
-To break between paragraphs, use a blank line to seprate the paragraphs.
+To break between paragraphs, use a blank line to separate the paragraphs.
 
 | Markdown | Rendered Output |
 |----------|-----------------|
@@ -153,7 +153,11 @@ To show backticks `` ` `` in code, surround the portion of code that would inclu
 
 ## Links
 
-To create an inline link, use `[ ]` to wrap the link text, followed by the URL/navigation to the linked content in `( )`. 
+To create an inline link, use `[ ]` to wrap the link text, followed by the URL/navigation to the linked content in `( )`.
+
+```
+[Link display text](link address)
+```
 
 ### Absolute links
 
@@ -171,11 +175,11 @@ This website is created with [Jekyll](https://jekyllrb.com){:target="_blank"}
 Relative links only works for linking to pages in the same website/repository. It is relative to the current file you are editing. For example, linking to a different page on this website could look like this:
 
 ```
-Check out the [quick start](./quick-start.md) page of this website.
+Check out the [quick start](./quick-start) page of this website.
 ```
 will render:
 
-Check out the [quick start](./quick-start.md) page of this website.
+Check out the [quick start](./quick-start) page of this website.
 
 You can use link operands such as `./` and `../` to indicate current directory and parent directory respectively.
 
@@ -192,8 +196,7 @@ To add an image, use an exclamation mark `!`, followed by alt text for the image
 ```
 ![Image of neuron drawing by Santiago Ramón y Cajal](./images/neuron-drawing.jpg)
 ```
-)
-will render
+will render:
 
 ![Image of neuron drawing by Santiago Ramón y Cajal](./images/neuron-drawing.jpg)
 
