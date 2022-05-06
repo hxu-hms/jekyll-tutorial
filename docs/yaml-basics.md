@@ -37,6 +37,8 @@ parent: Motivation # defines this page as a subpage of the page titled "Motivati
 ---
 ```
 
+**Read more about controlling page navigation structure on your site in [Just the Docs](https://labsyspharm.github.io/just-the-docs-lsp/docs/navigation-structure/){:target="_blank"} .**
+
 ## Basic formatting
 YAML is designed to be human-readable. It does not use any kind of angle brackets that are commonly used as markup tags. Instead, it uses blank spaces to form structures. Because of this, **YAML is very particular about the placement of spaces.** An extra space somewhere can easily make your file invalid. 
 
