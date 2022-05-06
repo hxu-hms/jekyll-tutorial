@@ -16,19 +16,20 @@ Open science is the movement to make scientific research and data accessible to 
 
 {: .fs-3 }
 {: .text-center}
-Learn more about [open science and open access](https://datamanagement.hms.harvard.edu/access/open-access) from the Harvard Longwood Medical Area Research [Data Management Working Group](https://datamanagement.hms.harvard.edu/).
+Learn more about [open science and open access](https://datamanagement.hms.harvard.edu/access/open-access){:target="_blank"} from the Harvard Longwood Medical Area Research [Data Management Working Group](https://datamanagement.hms.harvard.edu/){:target="_blank"}.
 
 ![professional development](./images/pro-dev-logo-2.jpg)
 
-{: .fw-300 }
+
 {: .text-center}
 > \[Making a website] is a relatively small investment of time that can pay off in terms of career progress, giving researchers greater control over how their expertise is presented online. It can also help researchers attract PhD students, share resources with the scientific community and promote their work to the general public.
 > 
 > _--- Andy Tay, Build-your-own website for scientists, Nature Index News, May 2020_
 
+
 {: .fs-3 }
 {: .text-center}
-Hear more perspectives and tips from researchers that has made a research website for [personal](https://www.natureindex.com/news-blog/build-your-own-academic-website-for-scientists-researchers-phd) career development or for their [lab](https://www-nature-com.ezp-prod1.hul.harvard.edu/articles/d41586-020-01298-5). 
+Hear more perspectives and tips from researchers that has made a research website for [personal](https://www.natureindex.com/news-blog/build-your-own-academic-website-for-scientists-researchers-phd){:target="_blank"} career development or for their [lab](https://www-nature-com.ezp-prod1.hul.harvard.edu/articles/d41586-020-01298-5){:target="_blank"}. 
 
 ![policy compliance](./images/policy-compliance-logo-2.jpg)
 
@@ -38,9 +39,9 @@ That's a fair question! Jekyll has a number of strengths as a website design and
 
 ## Integration with Git and GitHub Pages
 
-Because Jekyll websites are a directory of files, you can store your entire website on a [GitHub](https://github.com) repository! Working in a Git repository has [many benefits](https://www.atlassian.com/git/tutorials/why-git) including version control and easy collaboration. 
+Because Jekyll websites are a directory of files, you can store your entire website on a [GitHub](https://github.com){:target="_blank"} repository! Working in a Git repository has [many benefits](https://www.atlassian.com/git/tutorials/why-git){:target="_blank"} including version control and easy collaboration. 
 
-GitHub will also host your Jekyll website for free in [GitHub Pages](https://pages.github.com/)! You can either edit directly through GitHub.com (and have no need to install any additional software on your computer), or you can follow our installation instructions and edit on your local computer. *Visit [quick start](./quick-start) to get started!*
+GitHub will also host your Jekyll website for free in [GitHub Pages](https://pages.github.com/){:target="_blank"}! You can either edit directly through GitHub.com (and have no need to install any additional software on your computer), or you can follow our installation instructions and edit on your local computer. *Visit [quick start](./quick-start) to get started!*
 
 ## Some downsides and how we can help
 

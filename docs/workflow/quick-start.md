@@ -14,7 +14,7 @@ Here we present both options.
 
 ## Importing Website Template on GitHub
 
-1. [Import](https://github.com/new/import) the website template. Set **Laboratory of Systems Pharmacology @ Harvard** (labsyspharm) as owner.
+1. [Import](https://github.com/new/import){:target="_blank"} the website template. Set **Laboratory of Systems Pharmacology @ Harvard** (labsyspharm) as owner.
 2. Fill the template with your own content. For details, refer to instructions on how to [add](./import-template.md#adding-pages-on-github) and [edit](./import-template.md#editing-pages-on-github) pages on GitHub.
 3. [Set up](./import-template#setting-up-github-pages) GitHub Pages to make your website public
 

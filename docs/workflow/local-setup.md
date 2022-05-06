@@ -27,12 +27,12 @@ $ denotes the start of a command line. You type these command lines into your co
 # Installing Jekyll
 Jekyll documentation provides step-by-step guides for installation on macOS, Windows, Ubuntu and other Linux systems. 
 
-Please head to [Installation](https://jekyllrb.com/docs/installation/#requirements) on Jekyll documentation to choose your OS and follow along.
+Please head to [Installation](https://jekyllrb.com/docs/installation/#requirements){:target="_blank"} on Jekyll documentation to choose your OS and follow along.
 
 # Setting up a Website Locally with the blank template
 
 {: .fw-300 }
-GitHub's documentation describes in detail [how to start a Jekyll website *from scratch* locally](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll). 
+GitHub's documentation describes in detail [how to start a Jekyll website *from scratch* locally](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll){:target="_blank"}. 
 
 Here, we will only elaborate on how to use the blank templates locally. 
 
@@ -69,7 +69,7 @@ You can already preview and test your site on your local server. It is highly re
 
 # Commiting your work and setting up GitHub Pages
 
-1. To make your edits final, you need to add and commit your changes (if these terms are foreign to you, check out this [Git Guide](https://github.com/git-guides/) for some background knowledge on the basic actions of Git)
+1. To make your edits final, you need to add and commit your changes (if these terms are foreign to you, check out this [Git Guide](https://github.com/git-guides/){:target="_blank"} for some background knowledge on the basic actions of Git)
     ```
     $ git add .   # adds all the changes in the current directory
     $ git commit -m 'Initial GitHub pages site with Jekyll'

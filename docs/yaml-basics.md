@@ -6,7 +6,7 @@ permalink: /yaml
 
 # YAML Basics
 
-[YAML](https://yaml.org/)(YAML Ain't Markup Language) is a data serialization (fancy way of saying formatting data for the purpose of storage or transmission) language that is often used to create configuration files. Jekyll uses a combination of YAML and Liquid to separate data elements from formatting elements.
+[YAML](https://yaml.org/){:target="_blank"} (YAML Ain't Markup Language) is a data serialization (fancy way of saying formatting data for the purpose of storage or transmission) language that is often used to create configuration files. Jekyll uses a combination of YAML and Liquid to separate data elements from formatting elements.
 
 YAML is designed to be human-readable. It does not use any kind of angle brackets that are commonly used as markup tags. Instead, it uses blank spaces to form structures. Because of this, YAML is very particular about the placement of spaces. An extra space somewhere can easily make your file invalid. 
 
@@ -42,7 +42,7 @@ In Jeykll, YAML is seen mostly at two locations: `_config.yml` file and the fron
 
 ### Front Matter
 
-Front matter must be the first thing in the file and must take form of valid YAML set between triple dashed lines. Front matter tells Jekyll how to process and build your pages, creat and define define page-specific variables and trigger relevant file processings. Within front matter, you can set predefined variables or create your own. These variables will then be available through [Liquid](https://jekyllrb.com/docs/liquid/) tags within the same file or in any layouts or includes the current page/post relies on. 
+Front matter must be the first thing in the file and must take form of valid YAML set between triple dashed lines. Front matter tells Jekyll how to process and build your pages, creat and define define page-specific variables and trigger relevant file processings. Within front matter, you can set predefined variables or create your own. These variables will then be available through [Liquid](https://jekyllrb.com/docs/liquid/){:target="_blank"} tags within the same file or in any layouts or includes the current page/post relies on. 
 
 A simple example of front matter would be:
 ```

@@ -27,10 +27,10 @@ $ denotes the start of a command line. You type these command lines into your co
 # Installing Jekyll
 Jekyll documentation provides step-by-step guides for installation on macOS, Windows, Ubuntu and other Linux systems. 
 
-Please head to [Installation](https://jekyllrb.com/docs/installation/#requirements) on Jekyll documentation to choose your OS and follow along.
+Please head to [Installation](https://jekyllrb.com/docs/installation/#requirements){:target="_blank"} on Jekyll documentation to choose your OS and follow along.
 
 # Setting up a Website Locally
-GitHub has great [documentation](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll) on this process. It's great to check out if you need more clarification on any step described here.
+GitHub has great [documentation](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll){:target="_blank"} on this process. It's great to check out if you need more clarification on any step described here.
 
 1. Create a new repository on Github to store your site's source code. If you already have an existing repository, you can store the source code in a `/docs` folder
 
@@ -97,7 +97,7 @@ GitHub has great [documentation](https://docs.github.com/en/pages/setting-up-a-g
     ```
     gem "github-pages", "~> GITHUB-PAGES-VERSION", group :jekyll_plugins
     ```
-    Replace `GITHUG-PAGES-VERSION` with the lates supported version of the `github-pages` gem, which you can find on the [Dependency versions](https://pages.github.com/versions/) page.
+    Replace `GITHUG-PAGES-VERSION` with the lates supported version of the `github-pages` gem, which you can find on the [Dependency versions](https://pages.github.com/versions/){:target="_blank"} page.
 10. Save and close the `Gemfile`.
 11. From command line, run `bundle install`.
 12. You are now all set to work on your site locally. You can add pages by making new `.md` files and edit them in your text editor of choice. 
@@ -114,7 +114,7 @@ At this stage you can already preview and test your site on your local server. I
 
 # Commiting your work and setting up GitHub Pages
 
-1. To make your edits final, you need to add and commit your changes (if these terms are foreign to you, check out this [Git Guide](https://github.com/git-guides/) for some background knowledge on the basic actions of Git)
+1. To make your edits final, you need to add and commit your changes (if these terms are foreign to you, check out this [Git Guide](https://github.com/git-guides/){:target="_blank"} for some background knowledge on the basic actions of Git)
     ```
     $ git add .   # adds all the changes in the current directory
     $ git commit -m 'Initial GitHub pages site with Jekyll'

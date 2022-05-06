@@ -11,10 +11,10 @@ Markdown is a markup languages you can use to add formatting elements to plainte
 This page will give you a quick guide through some of the Markdown syntax that you may use for your website. If you are editing in GitHub, the Preview button on top of the editing window allows you to view basic Markdown contents before you commit to the changes (Jekyll-specific features are not supported). However, sometimes the GitHub Preview does not match the rendered website 100%, so make sure you double check on the actual website in the end.
 
 For extra resources on Markdown syntax and editing Markdown on GitHub, these following resources may be helpful:
-1. [Basic Writing and Formatting Syntax on GitHub](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-2. [Markdown Guide: Basic Markdown Syntax](https://www.markdownguide.org/basic-syntax/)
-3. [Markdown Guide: Extended Syntax](https://www.markdownguide.org/extended-syntax/)
-4. [Daring Fireball: Markdown Syntax](https://daringfireball.net/projects/markdown/syntax)
+1. [Basic Writing and Formatting Syntax on GitHub](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax){:target="_blank"}
+2. [Markdown Guide: Basic Markdown Syntax](https://www.markdownguide.org/basic-syntax/){:target="_blank"}
+3. [Markdown Guide: Extended Syntax](https://www.markdownguide.org/extended-syntax/){:target="_blank"}
+4. [Daring Fireball: Markdown Syntax](https://daringfireball.net/projects/markdown/syntax){:target="_blank"}
 
 ## Headings
 
@@ -164,7 +164,7 @@ This website is created with [Jekyll](https://jekyllrb.com)
 ```
 will render:
 
-This website is created with [Jekyll](https://jekyllrb.com)
+This website is created with [Jekyll](https://jekyllrb.com){:target="_blank"}
 
 ### Relative links
 

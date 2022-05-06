@@ -7,7 +7,7 @@ permalink: contacts/
 
 # Contributors
 
-Jekyll tutorial designed by Han Xu.
+Jekyll tutorial designed by [Han Xu](https://github.com/hxu-hms){:target="_blank"} with contributions from [Juliann Tefft](https://github.com/jtefftHiTS){:target="_blank"}.
 
 LSP theme designed by Joe Grassia and Martin Sorger.
 
@@ -19,5 +19,5 @@ Thanks to leadership from Peter Sorger and Laura Maliszewski.
 
 For LSP/HiTS members, questions and suggestions can be directed to **#jekyll-website-support** Slack channel.
 
-Bugs and edits on this tutorial can be reported by opening an [issue](https://docs.github.com/en/issues) on the [repository](https://github.com/hxu-hms/jekyll-tutorial).
+Bugs and edits on this tutorial can be reported by opening an [issue](https://docs.github.com/en/issues){:target="_blank"} on the [repository](https://github.com/hxu-hms/jekyll-tutorial){:target="_blank"}.
 

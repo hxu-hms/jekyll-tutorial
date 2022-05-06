@@ -19,7 +19,7 @@ Befor you start, makes sure you have a GitHub personal account. If you don't, fo
 
 # Importing template repository on GitHub
 
-1. Start a new repository under [**Laboratory of Systems Pharmacology @ Harvard**](https://github.com/labsyspharm). Choose _Import a repository_, on the right side of the title. For more information on the Import function, you can check out GitHub's [Documentaion](https://docs.github.com/en/github/importing-your-projects-to-github/importing-source-code-to-github/importing-a-repository-with-github-importer) on it.
+1. Start a new repository under [**Laboratory of Systems Pharmacology @ Harvard**](https://github.com/labsyspharm){:target="_blank"}. Choose _Import a repository_, on the right side of the title. For more information on the Import function, you can check out GitHub's [Documentaion](https://docs.github.com/en/github/importing-your-projects-to-github/importing-source-code-to-github/importing-a-repository-with-github-importer){:target="_blank"} on it.
 2. Use the URL for the blank site template `https://github.com/labsyspharm/blank-method-microsite/` as _old repository's clone URL_ and set **labsyspharm** as the owner.
 
     <img src="images/import-screenshot.PNG" alt="import_example" width="700"/>

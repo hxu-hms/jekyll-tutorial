@@ -21,7 +21,7 @@ This page will guild you through a few items of note to sort out _before_ you st
 
 # Data Management
 
-For LSP members, head to the [Data Management](https://hu.sharepoint.com/sites/HiTS/SitePages/Tidy-Data.aspx) page on our SharePoint for more Harvard and LSP specific information.
+For LSP members, head to the [Data Management](https://hu.sharepoint.com/sites/HiTS/SitePages/Tidy-Data.aspx){:target="_blank"} page on our SharePoint for more Harvard and LSP specific information.
 
 Having a well managed dataset is the foundation of your website. Here are a few points to consider **before** you start building your website:
 * Know where your data is
@@ -33,7 +33,7 @@ Having a well managed dataset is the foundation of your website. Here are a few 
 
 # GitHub account setup
 
-1. Head to [GitHub](github.com) and choose **Sign Up** on the upper right corner
+1. Head to [GitHub](github.com){:target="_blank"} and choose **Sign Up** on the upper right corner
 2. Follow the prompt to set up your account. Ideally, use an email address that you check frequently, since notifications regarding your website will be emailed to you. (It does not have to be your hms email)
 3. Confirm your email address via the emailed link
 4. Once your account is fully set up, contact **Jeremy Muhlich** to be added to the **Laboratoy of Systems Pharmacology @ Harvard** organization and obtain permission to make repositories under this group

@@ -17,7 +17,7 @@ The basic grid is an esay way to break away from the paragraph format and inject
 
 ![basic grid](../images/basic-grid.PNG)
 
-Another exmaple of the use a basic grid is on the [Methodology](https://labsyspharm.github.io/blank-pub-microsite/methodology/) page of the blank website template.
+Another exmaple of the use a basic grid is on the [Methodology](https://labsyspharm.github.io/blank-pub-microsite/methodology/){:target="_blank"} page of the blank website template.
 
 ## Enhanced Grid
 
@@ -25,7 +25,7 @@ Another exmaple of the use a basic grid is on the [Methodology](https://labsysph
 
 An enhanced grid allows you to customize the space designated to each element of the grid. It will automatically adjust to the screen size. 
 
-An example is shown in the [Related Publication](https://labsyspharm.github.io/blank-pub-microsite/related-pubs.html#alternative-way) page on the blank website template.
+An example is shown in the [Related Publication](https://labsyspharm.github.io/blank-pub-microsite/related-pubs.html#alternative-way){:target="_blank"} page on the blank website template.
 
 ## Image Cards
 
@@ -49,4 +49,4 @@ The above "See Documentation" is an example of a button! The style of the button
 
 You can embed a Youtube or Vimeo video in your website with autoplay option. 
 
-An example can be seen on the [MCMICRO Tutorial](https://mcmicro.org/tutorials/) page.
+An example can be seen on the [MCMICRO overview](https://mcmicro.org/overview/){:target="_blank"} page.

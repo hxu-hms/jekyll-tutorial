@@ -18,9 +18,9 @@ permalink: /faq
 
 ## How do I change the font size of the whole website?
 
-If you want to alter the default font size globally, [documentation](https://labsyspharm.github.io/just-the-docs-lsp/docs/utilities/typography/#global-font-size-adjustments) for the LSP/HiTS theme provides details instructions. 
+If you want to alter the default font size globally, [documentation](https://labsyspharm.github.io/just-the-docs-lsp/docs/utilities/typography/#global-font-size-adjustments){:target="_blank"} for the LSP/HiTS theme provides details instructions. 
 
-[View Documentation Here](https://labsyspharm.github.io/just-the-docs-lsp/docs/utilities/typography/#global-font-size-adjustments){: .btn .btn-arrow }
+[View Documentation Here](https://labsyspharm.github.io/just-the-docs-lsp/docs/utilities/typography/#global-font-size-adjustments){: .btn .btn-arrow }{:target="_blank"}
 
 Briefly, here are the steps:
 
@@ -88,7 +88,7 @@ To change the type of license, simply edit (pencil icon) the `LICENSE` file. Git
 
 ![choose license screenshot](./images/choose-license.png)
 
-Most software/code-related work product of LSP and HiTS are released under the [MIT license](https://choosealicense.com/licenses/mit/). Another type of commonly used licenses is the Creative Commons licenses, which you can read about on the [Creative Common website](https://creativecommons.org/about/cclicenses/) (https://creativecommons.org/about/cclicenses/). Finally, [Choose a License](https://choosealicense.com/) (https://www.choosealicense.com) is a helpful resource to learn about available license templates and choose a license based on your situation.
+Most software/code-related work product of LSP and HiTS are released under the [MIT license](https://choosealicense.com/licenses/mit/){:target="_blank"}. Another type of commonly used licenses is the Creative Commons licenses, which you can read about on the [Creative Common website](https://creativecommons.org/about/cclicenses/) (https://creativecommons.org/about/cclicenses/){:target="_blank"}. Finally, [Choose a License](https://choosealicense.com/) (https://www.choosealicense.com){:target="_blank"} is a helpful resource to learn about available license templates and choose a license based on your situation.
 
 To add a new license to your repository, you can add a new file titled `LICENSE` on GitHub. You will be prompted to choose from a list of license templates.
 
