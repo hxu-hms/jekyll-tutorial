@@ -66,17 +66,3 @@ Two most common types of elements in YAML are mappings and lists.
   
   You can use "for" loop to iterate through a list.
   
-
-### Front Matter
-
-Front matter must be the first thing in the file and must take form of valid YAML set between triple dashed lines. Front matter tells Jekyll how to process and build your pages, creat and define define page-specific variables and trigger relevant file processings. Within front matter, you can set predefined variables or create your own. These variables will then be available through [Liquid](https://jekyllrb.com/docs/liquid/){:target="_blank"} tags within the same file or in any layouts or includes the current page/post relies on. 
-
-A simple example of front matter would be:
-```
----
-layout: page
-title: example of front matter
-permalink: example
-published: true
----
-```
