@@ -7,9 +7,11 @@ parent: Jekyll Formatting Basics
 
 # Markdown Basic Syntax
 
-Markdown is a markup languages you can use to add formatting elements to plaintext text documents. When you write in Markdown, it creates a text file with an `.md` or `.markdown` extension. Any application that's capable of processing Markdown files (there are many!) can convert Markdown-formatted text into HTML so that it can be displayed in web browsers. Jekyll and GitHub Page are both applications that can process Markdown files. As a website development tool, Markdown has the benefit of being lightweight, portable (can be opened on by virtually any application), platform-independent, widely-supported and relatively easy to pick up. 
+Markdown is a markup languages you can use to add formatting elements to plaintext text documents. When you write in Markdown, it creates a text file with an `.md` or `.markdown` extension. Jekyll and GitHub Pages convert Markdown-formatted text into HTML so that it can be displayed in web browsers. 
 
-This page will give you a quick guide through some of the Markdown syntax that you may use for your website. If you are editing in GitHub, the Preview button on top of the editing window allows you to view basic Markdown contents before you commit to the changes (Jekyll-specific features are not supported). However, sometimes the GitHub Preview does not match the rendered website 100%, so make sure you double check on the actual website in the end.
+If you are editing Markdown in GitHub, the Preview button on top of the editing window allows you to view basic contents before you commit the changes. 
+
+*\*GitHub Preview does not always match the rendered website 100%. Some Jekyll specific Markdown features are not supported by the Preview function. Make sure to double check on the actual website in the end.*
 
 For extra resources on Markdown syntax and editing Markdown on GitHub, these following resources may be helpful:
 1. [Basic Writing and Formatting Syntax on GitHub](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax){:target="_blank"}

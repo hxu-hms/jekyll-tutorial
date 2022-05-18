@@ -32,7 +32,7 @@ has_children: true
 
 3. Edit the template. You can either edit on GitHub or work with Jekyll locally. 
 
-    *Both options involvings writing your content using Markdown and YAML. Checkout the Jekyll Formatting Basics to get you started.*
+    *Both options involvings writing your content using Markdown and YAML. Checkout the [Jekyll Formatting Basics](../formatting-basics.md) to get you started.*
 
     <br>
 

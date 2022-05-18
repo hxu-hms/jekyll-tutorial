@@ -7,7 +7,7 @@ parent: Jekyll Formatting Basics
 
 # YAML
 
-[YAML](https://yaml.org/){:target="_blank"} (YAML Ain't Markup Language) is a data serialization language (a fancy way of saying that YAML formats data for storage or transmission) that is often used to create configuration files. Jekyll uses a combination of YAML and Liquid to separate data elements from formatting elements.
+[YAML](https://yaml.org/){:target="_blank"} (YAML Ain't Markup Language) is a data serialization language (a fancy way of saying that YAML formats data for storage or transmission) that is often used to create configuration files. Jekyll uses YAML (sometimes in combination with Liquid) for formatting. YAML files have the extension `.yml`.
 
 ## Basic formatting
 YAML is designed to be human-readable. It does not use any kind of angle brackets that are commonly used as markup tags. Instead, it uses blank spaces to form structures. Because of this, **YAML is very particular about the placement of spaces.** An extra space somewhere can easily make your file invalid. 
@@ -19,11 +19,7 @@ Two most common types of elements in YAML are mappings and lists. You will see b
   ```
   key: value
   ```
-  for example:
-  
-  ```
-  flavor: chocolate
-  ```
+
 - A list is a sequence of items. Each item starts with two spaces (or a tab in some editors) of indent and a hyphen. For example:
  
   ```
@@ -37,18 +33,23 @@ _Note: Because "tab" is not implemented the same way across editors, it's best t
 
 ## YAML in Jekyll websites
   
-In Jeykll, YAML is seen mostly within  `_config.yml` file and the "front matter" of any page (including the homepage banner). 
+In Jeykll, YAML is seen mostly within  `_config.yml` file and the "front matter" of any page. 
 
-### Homepage banner
-YAML formatting is used for the website homepage banner - be sure to follow the [Basic formatting](./yaml#basic-formatting) suggestions shown below when editing the banner text and links.
+### _config.yml
+
+**_config.yml** contains site-wide configuration options. The main items that needs to be customized in the LSP templates are outlined on the [Customization](./theme/lsp-customizations.md) page.
+
+>{: .fs-3 }
+>{: .fw-300 }
+>For extra information and technical references on `_config.yml` file content, please refer to Jekyll's documentation on [configuration](https://jekyllrb.com/docs/configuration/).
 
 ### Front Matter
 
-**Front matter** tells Jekyll how to process and build your pages, create & define page-specific variables, and trigger relevant file processings.
+**Front matter** tells Jekyll how to process and build each page.
 
 - Front matter must be the first thing in the file
 - Front matter must take form of valid YAML set between triple dashed lines. 
-- Within front matter, you can set predefined variables or create your own.
+- As an somewhat advanced option, within front matter, you can set predefined variables or create your own.
 	- These variables will then be available through [Liquid](https://jekyllrb.com/docs/liquid/){:target="_blank"} tags within the same file or in any layouts or includes the current page/post relies on. 
 
 An example of front matter would be:
@@ -63,7 +64,14 @@ has_children: false # toggle to true if this page has subpages
 parent: Motivation # defines this page as a subpage of the page titled "Motivation"
 ---
 ```
+>*Read more about controlling page navigation structure on your site in [Just the Docs](https://labsyspharm.github.io/just-the-docs-lsp/docs/navigation-structure/){:target="_blank"} .*
 
-**Read more about controlling page navigation structure on your site in [Just the Docs](https://labsyspharm.github.io/just-the-docs-lsp/docs/navigation-structure/){:target="_blank"} .**
+#### Homepage hero banner
+
+A key styling component in the LSP templates is the hero banner on the homepage. The formatting for hero banner is located in the front matter of the homepage Markdown file `index.md`. 
+
+Detailed instructions can be found under [Customization](./theme/lsp-customizations.md#hero-banner).
+
+
 
   
