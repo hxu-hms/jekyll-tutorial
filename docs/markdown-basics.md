@@ -1,7 +1,8 @@
 ---
 layout: page
 nav_order: 6
-permalink: markdown-basic
+title: Markdown
+parent: Jekyll Formatting Basics
 ---
 
 # Markdown Basic Syntax

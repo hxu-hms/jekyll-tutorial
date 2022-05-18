@@ -4,6 +4,7 @@ nav_order: 2
 has_children: false
 title: Before you start
 permalink: /before-start/
+nav_exclude: true
 ---
 
 This page will guild you through a few items of note to sort out _before_ you start building your website. It will include:

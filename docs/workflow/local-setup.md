@@ -2,7 +2,7 @@
 layout: default
 title: Working with Jekyll Locally
 permalink: local-setup
-parent: Quick Start
+parent: Tutorial
 nav_exclude: false
 nav_order: 4
 ---
@@ -29,7 +29,7 @@ Jekyll documentation provides step-by-step guides for installation on macOS, Win
 
 Please head to [Installation](https://jekyllrb.com/docs/installation/#requirements){:target="_blank"} on Jekyll documentation to choose your OS and follow along.
 
-# Setting up a Website Locally with the blank template
+# Starting a local website repository
 
 {: .fw-300 }
 GitHub's documentation describes in detail [how to start a Jekyll website *from scratch* locally](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll){:target="_blank"}. 
@@ -56,7 +56,7 @@ Here, we will only elaborate on how to use the blank templates locally.
 
 4. You are now all set to work on your site locally. You can add pages by making new `.md` files and edit them in your text editor of choice. 
 
-# Testing Site Locally
+# Testing site locally
 You can already preview and test your site on your local server. It is highly recommended that you test your site multiple times locally, throughout the building process. 
 
 1. To do so, while in the `docs` folder, run 
@@ -67,7 +67,7 @@ You can already preview and test your site on your local server. It is highly re
 
 2. To preview the site, in your web browser, navigate to `http://localhost:4000`.
 
-# Commiting your work and setting up GitHub Pages
+# Commiting your work
 
 1. To make your edits final, you need to add and commit your changes (if these terms are foreign to you, check out this [Git Guide](https://github.com/git-guides/){:target="_blank"} for some background knowledge on the basic actions of Git)
     ```
@@ -83,11 +83,13 @@ You can already preview and test your site on your local server. It is highly re
     ```
     If you started with cloning your repository, you may already have the remote origin set up. You can check with the command `git status`
 
-3. Push the repository to GitHub, replacing `BRANCH` with the name of the branch you are working on
+3. Push the repository to GitHub, replacing `BRANCH` with the name of the branch you are working on. Now your repository is updated with the changes you made locally.
     ```
     $ git push -u origin BRANCH
     ```
-4. Set up GitHub Pages following the instructions [here](./import-template#setting-up-github-pages).
 
-_Ta-dah! Your website!_
 
+{: .fs-5 }
+{: .fw-300 }
+>Go back to Tutorial page to finish setting up your website.
+>[Back to Tutorial](./tutorial.md){: .btn .btn-outline .btn-arrow }

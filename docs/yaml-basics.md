@@ -1,12 +1,39 @@
 ---
 nav_order: 7
 layout: page
-permalink: /yaml
+title: YAML
+parent: Jekyll Formatting Basics
 ---
 
 # YAML
 
 [YAML](https://yaml.org/){:target="_blank"} (YAML Ain't Markup Language) is a data serialization language (a fancy way of saying that YAML formats data for storage or transmission) that is often used to create configuration files. Jekyll uses a combination of YAML and Liquid to separate data elements from formatting elements.
+
+## Basic formatting
+YAML is designed to be human-readable. It does not use any kind of angle brackets that are commonly used as markup tags. Instead, it uses blank spaces to form structures. Because of this, **YAML is very particular about the placement of spaces.** An extra space somewhere can easily make your file invalid. 
+
+Two most common types of elements in YAML are mappings and lists. You will see both of these in a Jeykll site.
+ 
+- Mapping is a simple key-value pair:
+
+  ```
+  key: value
+  ```
+  for example:
+  
+  ```
+  flavor: chocolate
+  ```
+- A list is a sequence of items. Each item starts with two spaces (or a tab in some editors) of indent and a hyphen. For example:
+ 
+  ```
+  cells:
+    - name: monocyte
+    - name: macrophage
+    - name: neutrophil
+  ```
+
+_Note: Because "tab" is not implemented the same way across editors, it's best to just type two spaces. With that said, in GitHub "tab" equates two spaces._
 
 ## YAML in Jekyll websites
   
@@ -39,32 +66,4 @@ parent: Motivation # defines this page as a subpage of the page titled "Motivati
 
 **Read more about controlling page navigation structure on your site in [Just the Docs](https://labsyspharm.github.io/just-the-docs-lsp/docs/navigation-structure/){:target="_blank"} .**
 
-## Basic formatting
-YAML is designed to be human-readable. It does not use any kind of angle brackets that are commonly used as markup tags. Instead, it uses blank spaces to form structures. Because of this, **YAML is very particular about the placement of spaces.** An extra space somewhere can easily make your file invalid. 
-
-Each new level of data (aside from the first) starts with an indent of **two spaces**. Each level also provides an access point to the data that you can reach using the dot notation (i.e. `site.data.dessert.icecream.flavor` would give you access to a folder named `_data`, in a file called `dessert.yml`, under _iceream_ data structure, a property named _flavor_.)
-
-_Note: Because "tab" is not implemented the same way across editors, it's best to just type two spaces. With that said, in GitHub "tab" equates two spaces._
-
-Two most common types of elements in YAML are mappings and lists. 
-- Mapping is a simple key-value pair:
-
-  ```
-  key: value
-  ```
-  for example:
-  
-  ```
-  flavor: chocolate
-  ```
-- A list is a sequence of items. Each item starts with a hyphen. For example:
- 
-  ```
-  cells:
-    - name: monocyte
-    - name: macrophage
-    - name: neutrophil
-  ```
-  
-  You can use "for" loop to iterate through a list.
   

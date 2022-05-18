@@ -1,9 +1,8 @@
 ---
 layout: default
 nav_order: 4
-parent: Quick Start
-title: Importing a GitHub Template
-permalink: import-template
+parent: Tutorial
+title: Editing on GitHub
 ---
 <details open markdown="block">
   <summary>
@@ -13,20 +12,6 @@ permalink: import-template
 1. TOC
 {:toc}
 </details>
-
-{: .fw-300 }
-Befor you start, makes sure you have a GitHub personal account. If you don't, follow [instructions here](../beforestart/before-start.md#github-account-setup) to obatin an account and gain permission to the LSP's organization on GitHub.
-
-# Importing template repository on GitHub
-
-1. Start a new repository under [**Laboratory of Systems Pharmacology @ Harvard**](https://github.com/labsyspharm){:target="_blank"}. Choose _Import a repository_, on the right side of the title. For more information on the Import function, you can check out GitHub's [Documentaion](https://docs.github.com/en/github/importing-your-projects-to-github/importing-source-code-to-github/importing-a-repository-with-github-importer){:target="_blank"} on it.
-2. Use the URL for the blank site template `https://github.com/labsyspharm/blank-method-microsite/` as _old repository's clone URL_ and set **labsyspharm** as the owner.
-
-    <img src="images/import-screenshot.PNG" alt="import_example" width="700"/>
-
-3. You should now have a copy of the blank website template in a new repository with *your website name*. 
-
-More details on the blank website template and how to use it can be found on the [website template](./website-template/) page.
 
 # Adding pages on GitHub
 
@@ -51,19 +36,17 @@ nav_order: 8
 # nav_order determines the order this page shows up on the left side navigation bar. Pages are sorted from low to high nav_order. Numbers do not have to be consecutive.
 ---
 ```
-Your other content should be written in Markdown below the `---` at the bottom of the front matter. More information on the front matter can be found [here](./yaml).
+Your other content should be written in Markdown below the `---` at the bottom of the front matter. More information on the front matter can be found [here](../yaml-basics.md).
 
 # Editing pages on GitHub
 
-To edit an existing page, open the markdown file and start editing it by clicking the _pencil_ icon in the top right tool bar. This tutorial website includes some [Markdown basic syntax](./markdown-basic) to get you started.
+To edit an existing page, open the Markdown file and start editing it by clicking the _pencil_ icon in the top right tool bar. 
 
-# Setting up GitHub pages
+![screenshot of the edit button](../images/edit-button.PNG)
 
-After you are happy with your site, you can set it up to be displayed:
-1. Make sure your repository access is set to **public**. This can be changed under **Settings > Manage access**.
-2. Within Settings, head over to **Pages** and change the default Source to the branch and folder where your website files are stored.
-3. Click "Save" after configruing the source. A banner should show up to show that your website is "Your site is ready to be published at *url*" and eventually "your site is published at *url*" (This process might take a few minutes).
+**You can find resources to help you start writing in Markdown and YAML in the [Jekyll Formatting Basics](../formatting-basics.md) section.**
 
-![screenshot of banner](../images/ghpages-setup.jpg)
-
-Now, if you head to the displayed *url*, you should see your finished website. 
+{: .fs-5 }
+{: .fw-300 }
+>Go back to Tutorial page to finish setting up your website.
+>[Back to Tutorial](./tutorial.md){: .btn .btn-outline .btn-arrow }
