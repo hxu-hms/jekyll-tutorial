@@ -73,3 +73,7 @@ has_children: true
     Now, if you head to the displayed *url*, you should see your finished website. 
 
     <br>
+
+{: .fs-5 }
+{: .fw-500 }
+**Now you have a website that you can preview and edit. [LSP Custom Theme](../theme/lsp-theme.md) page will guide you through the first steps of cutomizing your website.**

@@ -38,6 +38,6 @@ Stand-alone websites may not be necessary for some projects. For these instances
 
 The template for these landing pages serves as a checklist for files and information to provide in order for your research to be properly represented.
 
-Publication/data landing page template can be found on the [HiTS SharePoint](https://hu.sharepoint.com/sites/HiTS/SitePages/Research-Websites.aspx).
+Publication/data landing page template can be found on the [HiTS SharePoint](https://hu.sharepoint.com/sites/HiTS/SitePages/Research-Websites.aspx){:target="_blank"}.
 
 > *\*if you have questions about the landing page template, please reach out to Juliann Tefft (Juliann_Tefft@hms.harvard.edu)*
