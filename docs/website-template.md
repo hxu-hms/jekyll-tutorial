@@ -13,7 +13,7 @@ Two website templates are available for LSP lab members - a **software** website
 
 Each template outlines the recommended documentation for your project, organized into a logical navigation structure. Comments and suggested formatting can be found throughout the template to guide the website making process.
 
-Make sure to start wiht [Quick Start](./workflow/quick-start.md) for step-by-step instructions to use these template.
+Make sure to start with [Tutorial](/tutorial) for step-by-step instructions to use these template.
 
 {: .fw-300 }
 Here are the two templates:
@@ -40,4 +40,4 @@ The template for these landing pages serves as a checklist for files and informa
 
 Publication/data landing page template can be found on the [HiTS SharePoint](https://hu.sharepoint.com/sites/HiTS/SitePages/Research-Websites.aspx){:target="_blank"}.
 
-> *\*if you have questions about the landing page template, please reach out to Juliann Tefft (Juliann_Tefft@hms.harvard.edu)*
+> *\*if you have questions about the landing page template, please reach out to Juliann Tefft (Juliann_Tefft at hms.harvard.edu)*

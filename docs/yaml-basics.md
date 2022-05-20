@@ -41,7 +41,7 @@ In Jeykll, YAML is seen mostly within  `_config.yml` file and the "front matter"
 
 >{: .fs-3 }
 >{: .fw-300 }
->For extra information and technical references on `_config.yml` file content, please refer to Jekyll's documentation on [configuration](https://jekyllrb.com/docs/configuration/).
+>For extra information and technical references on `_config.yml` file content, please refer to Jekyll's documentation on [configuration](https://jekyllrb.com/docs/configuration/){:target="_blank"}.
 
 ### Front Matter
 

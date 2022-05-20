@@ -41,7 +41,7 @@ That's a fair question! Jekyll has a number of strengths as a website design and
 
 Because Jekyll websites are a directory of files, you can store your entire website on a [GitHub](https://github.com){:target="_blank"} repository! Working in a Git repository has [many benefits](https://www.atlassian.com/git/tutorials/why-git){:target="_blank"} including version control and easy collaboration. 
 
-GitHub will also host your Jekyll website for free in [GitHub Pages](https://pages.github.com/){:target="_blank"}! You can either edit directly through GitHub.com (and have no need to install any additional software on your computer), or you can follow our installation instructions and edit on your local computer. *Visit [quick start](./quick-start) to get started!*
+GitHub will also host your Jekyll website for free in [GitHub Pages](https://pages.github.com/){:target="_blank"}! You can either edit directly through GitHub.com (and have no need to install any additional software on your computer), or you can follow our installation instructions and edit on your local computer. *Visit [tutorial](../tutorial) to get started!*
 
 ## Some downsides and how we can help
 
