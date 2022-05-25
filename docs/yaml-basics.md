@@ -49,7 +49,7 @@ In Jeykll, YAML is seen mostly within  `_config.yml` file and the "front matter"
 
 - Front matter must be the first thing in the file
 - Front matter must take form of valid YAML set between triple dashed lines. 
-- As an somewhat advanced option, within front matter, you can set predefined variables or create your own.
+- As an advanced option, within front matter, you can set predefined variables or create your own.
 	- These variables will then be available through [Liquid](https://jekyllrb.com/docs/liquid/){:target="_blank"} tags within the same file or in any layouts or includes the current page/post relies on. 
 
 An example of front matter would be:
