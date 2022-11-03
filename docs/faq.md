@@ -115,7 +115,7 @@ end
 
 This `Gemfile` calls for Github Pages version 227. By referencing the [dependencies for Github Pages](https://pages.github.com/versions/){:target="_blank"}, we can see that Github Pages version 227 depends on Jekyll version 3.9.2 and Ruby version 2.7.4. Our site is trying to use an older version of Jekyll. *If your site is using other gems within the Gemfile, be sure to check and update those versions as well.*
 
-We can then revise our `Gemfile` to include
+We can then revise our `Gemfile` to include:
 ```
 gem "jekyll", "~> 3.9.2"
 ```
