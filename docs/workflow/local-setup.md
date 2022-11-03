@@ -53,6 +53,7 @@ Here, we will only elaborate on how to use the blank templates locally.
     $ cd your-website-name/docs
     $ bundle install
     ```
+>*If you run into errors on bundle install, see [FAQ](http://localhost:4000/faq#i-am-trying-to-preview-my-site-locally-and-hit-an-error-on-bundle-install---what-now){:target="_blank"}.*
 
 4. You are now all set to work on your site locally. You can add pages by making new `.md` files and edit them in your text editor of choice. 
 

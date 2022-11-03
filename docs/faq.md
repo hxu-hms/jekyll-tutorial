@@ -92,4 +92,43 @@ Most software/code-related work product of LSP and HiTS are released under the [
 
 To add a new license to your repository, you can add a new file titled `LICENSE` on GitHub. You will be prompted to choose from a list of license templates.
 
-          
+## I am trying to preview my site locally and hit an error on `bundle install` - what now?
+
+These errors are often caused by gem dependency issues. You may need to update the `Gemfile` to reflect the version of Ruby your system is running. 
+
+You can check your system's Ruby version with
+```
+ruby -v
+```
+
+The `Gemfile` will tell you the versions of your site is trying to utilize:
+
+```
+source "https://rubygems.org"
+
+gem "jekyll", "~> 2.5"
+
+# To upgrade, run `bundle update github-pages`.
+gem "github-pages", "~>227", group: :jekyll_plugins
+
+# If you have any plugins, put them here!
+group :jekyll_plugins do
+  gem "jekyll-feed", "~> 0.15"
+  gem "jekyll-include-cache"
+end
+
+```
+
+This `Gemfile` calls for Jekyll version 2.5 and Github Pages version 227. By referencing the [dependencies for Github Pages](https://pages.github.com/versions/){:target="_blank"}, we can see that Github Pages version 227 uses Jekyll version 3.9.2. 
+
+We can then revise our `Gemfile` to include
+```
+gem "jekyll", "~> 3.9.2"
+```
+
+and re-run 
+```
+bundle install
+```
+
+to see if this corrects the issue. 
