@@ -94,15 +94,9 @@ To add a new license to your repository, you can add a new file titled `LICENSE`
 
 ## I am trying to preview my site locally and hit an error on `bundle install` - what now?
 
-These errors are often caused by gem dependency issues. You may need to update the `Gemfile` to reflect the version of Ruby your system is running. 
+This error may be caused by gem dependency issues. You may need to update the software versions referenced in your `Gemfile`. 
 
-You can check your system's Ruby version with
-```
-ruby -v
-```
-
-The `Gemfile` will tell you the versions of your site is trying to utilize:
-
+The `Gemfile` will tell you the versions of your site is using:
 ```
 source "https://rubygems.org"
 
@@ -119,16 +113,21 @@ end
 
 ```
 
-This `Gemfile` calls for Jekyll version 2.5 and Github Pages version 227. By referencing the [dependencies for Github Pages](https://pages.github.com/versions/){:target="_blank"}, we can see that Github Pages version 227 uses Jekyll version 3.9.2. 
+This `Gemfile` calls for Github Pages version 227. By referencing the [dependencies for Github Pages](https://pages.github.com/versions/){:target="_blank"}, we can see that Github Pages version 227 depends on Jekyll version 3.9.2 and Ruby version 2.7.4. Our site is trying to use an older version of Jekyll. *If your site is using other gems within the Gemfile, be sure to check and update those versions as well.*
 
 We can then revise our `Gemfile` to include
 ```
 gem "jekyll", "~> 3.9.2"
 ```
 
-and re-run 
+and check if our system is running an outdated Ruby version with: 
+```
+ruby -v
+```
+
+If you need to update Ruby on your system, you can visit the [Jekyll installation guide for Ruby](https://jekyllrb.com/docs/installation/){:target="_blank"} to learn more.
+
+You can then re-run 
 ```
 bundle install
 ```
-
-to see if this corrects the issue. 
