@@ -52,4 +52,4 @@ If you need to use the `datarelease-README.md`, follow these three simple steps
 
 1. Edit `datarelease-README.md` to reflect the data you need to release
 2. Delete `README.md`
-3. Rename `datarelease-README.md` to `README.md`. This will display its contents at below the list of files in your repository
+3. Rename `datarelease-README.md` to `README.md`. This will display its contents below the list of files in your repository
