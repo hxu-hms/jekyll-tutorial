@@ -41,3 +41,15 @@ The template for these landing pages serves as a checklist for files and informa
 Publication/data landing page template can be found on the [HiTS SharePoint](https://hu.sharepoint.com/sites/HiTS/SitePages/Research-Websites.aspx){:target="_blank"}.
 
 > *\*if you have questions about the landing page template, please reach out to Juliann Tefft (Juliann_Tefft at hms.harvard.edu)*
+
+<br>
+
+## datarelease-README.md in the website templates
+
+The `datarelease-README.md` is applicable to the projects that involve data or code release, in addition to having a dedicated Jekyll site. It is designed as a guide for users to access the released data or code easily, in a list format. 
+
+If you need to use the `datarelease-README.md`, follow these three simple steps
+
+1. Edit `datarelease-README.md` to reflect the data you need to release
+2. Delete `README.md`
+3. Rename `datarelease-README.md` to `README.md`. This will display its contents at below the list of files in your repository
