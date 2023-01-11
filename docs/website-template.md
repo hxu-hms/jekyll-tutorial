@@ -13,7 +13,7 @@ Two website templates are available for LSP lab members - a **software** website
 
 Each template outlines the recommended documentation for your project, organized into a logical navigation structure. Comments and suggested formatting can be found throughout the template to guide the website making process.
 
-Make sure to start with [Tutorial](/tutorial) for step-by-step instructions to use these template.
+Make sure to start with [Tutorial](./workflow/tutorial.md) for step-by-step instructions to use these template.
 
 {: .fw-300 }
 Here are the two templates:
