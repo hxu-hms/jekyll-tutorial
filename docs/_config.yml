@@ -45,6 +45,11 @@ footer_logos:
     image: "/assets/images/logo_hms.svg"
     url: "https://hms.harvard.edu/"
 
+# Google Analytics
+ga_tracking: G-633876WBHF
+ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings
+
+
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
